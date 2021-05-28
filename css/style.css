@@ -1,0 +1,109 @@
+body{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+  .navbar{ 
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    display: flex;
+    font-size: 25px;
+} 
+.logo img{
+    /* float: left; */
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+.name{
+text-align: center;
+image-orientation: center;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.nav_item{
+    padding: 8px;
+}
+.mainbody{
+    padding: 0px 200px 0px 200px;
+    font-size: 22px;
+    font-family: 'Comic Sans MS', 'Comic Sans','cursive';
+}
+.bottombar{
+    margin: 100px 200px 0px 200px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+}
+.web{
+    position: absolute;
+    right: 350px;
+    top: 275px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.other{
+    position: absolute;
+    right: 350px;
+    top: 410px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.prog_lang{
+    position: absolute;
+    left: 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dbms{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.form_detail{
+    position: absolute;
+    left: 150px;
+}
+.contact_add{
+    position: absolute;
+    right: 150px;
+}
+.submit{
+    position: absolute;
+    left: 630px;
+    bottom: 0px;
+}
+.midbar{
+    font-weight: bold;
+}
+.field{
+    padding-left: 150px;
+    font-size: 25px;
+}
+.block{
+    background-color:green ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row{
+    background-color: grey;
+    text-align: left;
+    font-size: 20px;
+}
+.table{
+    position:absolute;
+    left: 250px;
+}
+.row2{
+    padding: 5px;
+}
+

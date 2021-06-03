@@ -1,40 +1,173 @@
-  
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/mystyle.css" media="all"/>
-        <title>Padmashree Thakare</title>
-    </head>
-    <body>
-        <div class="topbar">
-            <div class="logo">
-                <img src="images/logo.jpg">
-            </div>
+<html lang="en">
+<head>
+    <script>
+         function gotohome(){
+            var my_homet = document.getElementById("my_home");
+        my_home.scrollIntoView();
+        }
+        function gotoabout(){
+            var about_me = document.getElementById("about_me");
+        about_me.scrollIntoView();
+        }
+        function gotoskills(){
+            var my_skills = document.getElementById("my_skills");
+        my_skills.scrollIntoView();
+        }
+       
+        function gotoproject(){
+            var about_project = document.getElementById("about_project");
+        about_project.scrollIntoView();
+        }
+        function gotocontact(){
+            var my_contact = document.getElementById("my_contact");
+        my_contact.scrollIntoView();
+        }
+       
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+   <header class="menu-sticky">
+    <div class="container">
+        <nav class="flex items-center justify-between">
+            <div class="left flex items-center">
+                <div class="branding">
+                <img width="48px" src="./images/logo.jpg">
+                </div>
+                <div>
+                     
+                    <a href="#home" onclick="gotohome()">Home</a>
+                    <a href="#about" onclick="gotoabout()">About</a>
+                    <a href="#skills" onclick="gotoskills()">Skills</a>
+                    <a href="#project" onclick="gotoproject()">Projects</a>
             
-            <div class="navbar">
-                   <div class="nav_item"><a href="index.html">Home</a></div> 
-                    <div class="nav_item"><a href="skills.html">Skills</a></div> 
-                    <div class="nav_item"><a href="project.html">Projects</a></div> 
-                    <div class="nav_item"><a href="contact.html">Contact</a></div>
+                </div>
             </div>
-            <div class="name">
-                <img src="images/shree.jpg" height="300px" width="300px">
-                 <h1>Padmashree Thakare</h1>
+
+            <div class="right">
+                <button class="btn btn-primary" onclick="gotocontact()">Contact</button>
             </div>
-        </div>
-        <div class="background">
-            <img src="images/background.jpg">
-        </div>
-        <div class="mainbody">
-                <p>Myself Padmashree Thakare. I am from Pune Maharashtra, I have completed M.Sc. from Pune University in 2019. I am self-made women. My carrer objective is to succeed in an environment of growth and excellence and earn a job as a software developer that help me achieve personal as well as organisational goals.</p>
-        </div>
-        <div class="bottombar">
-            <div class="contact">
-                <p>E-mail_id: padmashreethakare96@gmail.com</p>
+        </nav>
+       </div>
+    </header>
+    <header>
+        <div class="container">
+            <div class="hero flex items-center justify-between" id="my_home">
+                <div class="left flex-1">
+                    <img src="images/shree.jpg" alt="">
+                </div>
+                <div class="right flex-1 ">
+                    <h6>Padmashree Thakare</h6>
+                    <h1>I'm a Creative <span>Web Developer</span></h1>
+                    <div>
+                        <button class="btn btn-secondary">DOWNLOAD CV</button>
+                    </div>
+                </div>
+    
             </div>
-            
-        </div>
+       </div>
+    </header>
+   
+     <section class="about"  >
         
-        
-    </body>
+        <!-- <a href="#">About</a> -->
+        <div class="container flex items-center" id="about_me">
+             <div class="flext-1">
+                
+                <h1>About<span> Me </span> </h1>
+                <h3> Hello i'm <span>Padmashree Thakare</span></h3>
+                <p> A self-taught web developer, passionate about various technologies.  An enthusiastic fresher with highly motivated and leadership quality having Masters of Computer Science Degree.Along with my academic I love to play different games.What's good? if there is no fun in life. So, when I am not
+                    coding or writing about my codes, I love binge watching a web series or go out on long drives and meet new
+                    people.  </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" >
+        <div class="container flex items-center" id="about_project">
+            <div class="flex-2">
+        <h1><center><span>Project </span> </center></h1>
+        <h2 class="project name">PORTFOLIO</h2>
+
+        <p>         April-May 2021<br>
+                     Role: Developer
+        <br>
+                         I make this project for the organization where i am learning.For this i'm using HTML, CSS. Here one can see about myself, my skillsets, contact details and the project I made. 
+        </p>
+    </div>
+    </div>
+    </section>
+ <section class="skills" >
+        <div class="container flex items-center" id="my_skills">
+            <div class="flex-3">
+                <h1><center> My Skills</center></h1>
+                <p>HTML</p>
+<div class="con">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="con">
+  <div class="skills css">85%</div>
+</div>
+
+<p>Java</p>
+<div class="con">
+  <div class="skills java">75%</div>
+</div>
+
+<p>PHP</p>
+<div class="con">
+  <div class="skills php">60%</div>
+</div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" >
+        <div class="container flex items-center" id="my_contact">
+            <div class="flex-4">
+                <h1><center>Contact</center></h1>
+    <div class="conpage" >
+        <form action="action_page">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         
+          <label for="email">Email</label>
+          <input type="text" id="emailid" name="email" placeholder="Your email...">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+          <!-- <input type="cancel" value="Cancel"> -->
+      
+        </form>
+      </div>
+      </div>
+      </div>
+      </section>
+</body>
 </html>

@@ -15,6 +15,7 @@
 
 }
 header{
+     /* margin-top: 9rem; */
     background: var(--dark);
      /* height: 600px;  */
      clip-path: polygon(0 0,100% 0, 100% 100%,70% 87%,0 100%);
@@ -22,9 +23,11 @@ header{
 
 .container{
     width: 1152px;
-    padding: 0 15px;
+    padding: 1.2px 15px;
     margin: 0 auto
+    
 }
+
 
 header nav .left a{
     color: var(--pure);
@@ -60,7 +63,7 @@ header nav .branding{
 
 .hero .left img{
 width: 350px;
-margin-top: -1.2rem;
+margin: top 15rem;
 
 }
 .hero .right{
@@ -228,3 +231,7 @@ section.project p{
      z-index: 2;
      top: 0;
  }
+ /* .left flex-1{
+     padding: -1rem;
+     margin-top: 2rem;
+ } */
